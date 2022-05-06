@@ -1,0 +1,292 @@
+html{
+    scroll-behavior: smooth;
+}
+h1 {
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+
+}
+h3{
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+p {
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.principal {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65vh;
+    gap: 200px;
+    margin-top: 35vh;
+}
+
+.scroll_down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-self: flex-end;
+    color: black;
+    text-decoration: none;
+}
+
+.rotate_scroll {
+    display: flex;
+    transform: rotate(90deg);
+    align-items: center;
+}
+
+.scroll_animate {
+    animation: nudge 1s linear infinite alternate;
+    min-width: max-content;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 200px;
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    position: fixed;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    height: 30px;
+    font-family: 'Titillium Web', Helvetica, sans-serif;   
+     font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 32px;
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+.nav a :hover {
+    font-size: 28;
+}
+.enlace {
+    color: black;
+    text-decoration: none;
+}
+
+/*
+.nav button {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 140px;
+    margin-top: 10px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0 0;
+
+  }
+*/
+
+.nav-container {
+    width: 15%;
+    height: 100vh;
+}
+
+@keyframes nudge {
+    0% {
+        transform: translate(-60px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+.a {
+    color: black;
+}
+
+img.alineadoTextoImagenCentro {
+    vertical-align: middle;
+}
+
+.project_image {
+    width: 20vw;
+}
+footer {
+    display: flex;
+    background-color: black;
+    height: 200px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    margin-top: 100px;
+}
+.footer img {
+    max-width: 40px;
+}
+.footer h2 {
+    color: white;
+}
+
+/*parte de proyectos*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.projects-container {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 70%;
+}
+
+.project {
+    display: flex;
+    column-gap: auto;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-left: 120px;
+}
+
+.project-img {
+    width: 50%;
+}
+
+.project-description {
+    width: 50%;
+}
+
+.project h3 {
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+        font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.project p {
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+        margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.project button {
+    margin-top: 24px;
+    border: 1px solid #848484;
+    border-radius: 14px;
+    background-color: white;
+    padding: 0 32px;
+    height: 56px;
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.project button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Contact*/
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: max-content;
+    gap: 200px;
+    margin-top: 10vh;
+    margin-left: 22vw;
+}
+.projects_title h1 {
+    font-size: 40px;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    margin-top: 40vh;
+}
+.contact_title h2 {
+    font-size: 48px;
+margin-bottom: 20px;
+}
+.contact h3 {
+    margin-bottom: 10px;
+}
+
+/*uhome */
+.landing_Uhome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    gap: 50px;
+    margin-top: 5vh;
+}
+
+.figma {
+    
+}
+
+.error404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45vh;
+    margin-left: 25vw;
+}
+
+.error404 button {
+    margin-top: 24px;
+    border: 1px solid #848484;
+    border-radius: 14px;
+    background-color: white;
+    padding: 0 32px;
+    height: 56px;
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.error404 h2 {
+font-size: 10vh;
+}
